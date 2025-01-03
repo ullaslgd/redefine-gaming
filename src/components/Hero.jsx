@@ -30,13 +30,13 @@ function Hero() {
         sethasClicked(true);
         setcurrentIndex(upcomingVideoIndex);
      }
-     useEffect(()=>{
-            if(loadedvideos === totalVideos){
+     useEffect(() => {
+            if(loadedvideos === totalVideos - 1){
                 setisloading(false);
             }
      },[loadedvideos])
 
-     useGSAP(()=>{
+     useGSAP(() => {
         if(hasClicked){
             gsap.set("#next-video",{visibility:'visible'});
 
