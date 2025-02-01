@@ -103,6 +103,7 @@ function Hero() {
                 <video
                     ref={nextVideoRef}
                     src={videoSrc(currentIndex)}
+                    autoPlay
                     loop
                     muted
                     id='next-video'
