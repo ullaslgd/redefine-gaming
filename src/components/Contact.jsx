@@ -1,5 +1,4 @@
 import AnimatedTitle from "./AnimatedTitle";
-import Button from "./button";
 
 const ImageClipBox = ({ src, clipClass }) => (
   <div className={clipClass}>
@@ -43,7 +42,6 @@ const Contact = () => {
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
 
-          <Button title="contact us" containerClass="mt-10 cursor-pointer" />
         </div>
       </div>
     </div>
